@@ -1,0 +1,42 @@
+Package: OPTIVAL
+Type: Package
+Title: Model-Based Optimal Test Validity Analysis
+Version: 1.0.0
+Date: 2025-01-08
+Authors@R: c(
+    person("David", "Navarro-González", 
+           email = "david.navarro@urv.cat", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7529-6477")),
+    person("Pere J.", "Ferrando",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-3133-5466")),
+    person("Fabia", "Morales-Vives",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-2095-0244"))
+    )
+Description: Implements a model-based approach for determining optimal item subsets 
+    that maximize the predictive validity of test scores with respect to external 
+    variables. The methodology is based on Item Response Theory (IRT) and linear 
+    factor analysis, using Confirmatory Factor Analysis (CFA) for item calibration 
+    and bootstrap procedures for empirical validation. The package provides both 
+    computational functions and an interactive Shiny application for ease of use.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+Imports:
+    shiny (>= 1.7.0),
+    lavaan (>= 0.6-0),
+    DT (>= 0.20),
+    plotly (>= 4.10.0),
+    waiter (>= 0.2.0)
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+RoxygenNote: 7.2.0
+URL: https://github.com/dnavarro991/OPTIVAL
+BugReports: https://github.com/dnavarro991/OPTIVAL/issues
