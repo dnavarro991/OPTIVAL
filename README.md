@@ -309,8 +309,3 @@ This package is licensed under the GNU General Public License v3.0 (GPL-3). See 
 
 - **David Navarro-González**: david.navarro@urv.cat
 - **GitHub Issues**: [https://github.com/dnavarro991/OPTIVAL/issues](https://github.com/dnavarro991/OPTIVAL/issues)
-
-## Acknowledgments
-
-This work was supported by [funding information if applicable].
-
